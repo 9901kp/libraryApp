@@ -13,6 +13,10 @@
 		93D3D7852C04ED1300EF8A75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D3D7832C04ED1300EF8A75 /* Main.storyboard */; };
 		93D3D7872C04ED1400EF8A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D3D7862C04ED1400EF8A75 /* Assets.xcassets */; };
 		93D3D78A2C04ED1400EF8A75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D3D7882C04ED1400EF8A75 /* LaunchScreen.storyboard */; };
+		93D3D7922C04EE6600EF8A75 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D3D7912C04EE6600EF8A75 /* Library.swift */; };
+		93D3D7942C04EE7000EF8A75 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D3D7932C04EE7000EF8A75 /* Book.swift */; };
+		93D3D7962C04EE7B00EF8A75 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D3D7952C04EE7B00EF8A75 /* Member.swift */; };
+		93D3D7982C04EE8800EF8A75 /* LibraryMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D3D7972C04EE8800EF8A75 /* LibraryMember.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		93D3D7862C04ED1400EF8A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93D3D7892C04ED1400EF8A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93D3D78B2C04ED1400EF8A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D3D7912C04EE6600EF8A75 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		93D3D7932C04EE7000EF8A75 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		93D3D7952C04EE7B00EF8A75 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		93D3D7972C04EE8800EF8A75 /* LibraryMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryMember.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				93D3D77F2C04ED1300EF8A75 /* SceneDelegate.swift */,
 				93D3D7812C04ED1300EF8A75 /* ViewController.swift */,
 				93D3D7832C04ED1300EF8A75 /* Main.storyboard */,
+				93D3D7912C04EE6600EF8A75 /* Library.swift */,
+				93D3D7932C04EE7000EF8A75 /* Book.swift */,
+				93D3D7952C04EE7B00EF8A75 /* Member.swift */,
+				93D3D7972C04EE8800EF8A75 /* LibraryMember.swift */,
 				93D3D7862C04ED1400EF8A75 /* Assets.xcassets */,
 				93D3D7882C04ED1400EF8A75 /* LaunchScreen.storyboard */,
 				93D3D78B2C04ED1400EF8A75 /* Info.plist */,
@@ -139,7 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				93D3D7822C04ED1300EF8A75 /* ViewController.swift in Sources */,
+				93D3D7982C04EE8800EF8A75 /* LibraryMember.swift in Sources */,
+				93D3D7962C04EE7B00EF8A75 /* Member.swift in Sources */,
+				93D3D7922C04EE6600EF8A75 /* Library.swift in Sources */,
 				93D3D77E2C04ED1300EF8A75 /* AppDelegate.swift in Sources */,
+				93D3D7942C04EE7000EF8A75 /* Book.swift in Sources */,
 				93D3D7802C04ED1300EF8A75 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
